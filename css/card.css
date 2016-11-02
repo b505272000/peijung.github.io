@@ -1,0 +1,60 @@
+/* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+
+    /* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 767px) {
+.container {
+margin-bottom: 0px;
+}
+.col-sm-6, .col-xs-6 {
+	padding: 0;
+}
+.cardL {
+	padding-right: 0px;
+}
+.cardR {
+	padding-left: 0px;
+}
+.mb-img-1 {
+	width: auto;
+	height: calc(100vh - 50px);
+	background-image: url('../img/1.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+.container {
+margin-bottom: 0px;
+}
+.col-sm-6, .col-xs-6 {
+	padding: 0;
+}
+.cardL {
+	padding-left: 15px;
+}
+.cardR {
+	padding-right: 15px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+.container {
+margin-bottom: 30px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px){
+.container {
+margin-bottom: 30px;
+}
+.pc-img-1 {
+	width: auto;
+	height: 500px;
+	background-image: url('../img/photo-1.jpeg');
+	background-position: no-repeat;
+	background-size: cover;
+}
+}
